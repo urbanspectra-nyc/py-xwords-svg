@@ -6,7 +6,7 @@ size = 100
 # Amount to offset the number by
 number_offset = (11, 33)
 # Amount to offset the text in the box by
-text_offset = (30, 70)
+text_offset = (40, 70)
 
 # Giant style string with the CSS for the SVG. problem? no problem.
 stylestring = """
@@ -18,7 +18,7 @@ stylestring = """
         .black {fill:black}
         .white {fill:white}
         .fnt-numbers {font-weight:normal;font-size:36;font-family:'Times New Roman'}
-        .fnt-letters {font-weight:normal;font-size:64;font-family:'Courier New'}
+        .fnt-letters {font-weight:normal;font-size:110;font-family:'Courier New'}
     ]]>
     </style>
     </defs>"""
