@@ -35,8 +35,8 @@ The output looks like this:
 
 ![Sample output](http://i.imgur.com/NaAoY1R.png)
 
-If there are words that couldn't fit, they are printed to standard error.
-We can alternatively save the board to a file to finish it by hand using
+    If there are words that couldn't fit, they are printed to standard error.
+    We can alternatively save the board to a file to finish it by hand using
 
         command line argument:
         --save_generate <file name>.
