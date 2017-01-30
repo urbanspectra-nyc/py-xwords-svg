@@ -15,7 +15,6 @@ Use this to generate SVG crossword grids and puzzles.
 
          $ python make-crossword.py input.txt > crossword.svg
 
-
 If you want to just supply a list of words and have it generate the layout for you, you can also do that!
 
 For example:
