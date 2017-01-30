@@ -13,7 +13,7 @@ Use this to generate SVG crossword grids and puzzles.
 
         Execution pattern:
 
-         $ python make-crossword.py input.txt > crossword.svg
+         $ python make-crossword.py inputs/input.txt > outputs/crossword.svg
 
 If you want to just supply a list of words and have it generate the layout for you, you can also do that!
 
@@ -23,7 +23,7 @@ For example:
 
         Execution pattern:
 
-        $ python make-crossword.py --generate 20x20 sample_generate.txt > crossword-generated.svg
+        $ python make-crossword.py --generate 20x20 inputs/sample_generate.txt > outputs/crossword-generated.svg
 
         command line argument:
         --generate WxH where W is the number of columns and H is the number of rows. 
