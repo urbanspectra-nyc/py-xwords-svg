@@ -1,5 +1,5 @@
-SVG Crossword maker
-===================
+SVG Crossword Creator
+=====================
 
 Use this to generate SVG crossword grids and puzzles.
 
