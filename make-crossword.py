@@ -22,6 +22,7 @@ stylestring = """
     ]]>
     </style>
     </defs>"""
+
 def translate(coords, offset):
     return map(sum,zip(coords,offset))
 
