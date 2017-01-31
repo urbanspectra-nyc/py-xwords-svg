@@ -23,7 +23,7 @@ For example:
 
         Execution pattern:
 
-        $ python make-crossword.py --generate 20x20 inputs/sample_generate.txt > outputs/crossword-generated.svg
+        $ python make-crossword.py --generate 30x30 inputs/sample_gen2.txt > outputs/crossword-generated.svg
 
         command line argument:
         --generate WxH where W is the number of columns and H is the number of rows. 
