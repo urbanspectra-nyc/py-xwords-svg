@@ -78,13 +78,11 @@ def is_start_of_word(lines, i, j):
     return False
 
 def create_svg(lines):
-    """Takes a list of lines from a file with newlines stripped and creates a
-    SVG
-    """
+    """Takes a list of lines from a file with newlines stripped and creates a SVG"""
+
     root = etree.XML('<svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"></svg>')
     root.append(etree.XML(stylestring))
-    # number is the current word number, for numbering the words in the
-    # crossword
+    # number is the current word number, for numbering the words in the crossword
     number = 0
     for i in range(len(lines)):
         line = lines[i]
